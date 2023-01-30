@@ -2,8 +2,8 @@ export async function getIPv4() {
   return await getIP("https://api.ipify.org?format=json");
 }
 
-export async function getIPv6() {
-  return await getIP("https://api6.ipify.org?format=json");
+export async function getIPv6(setIpV6) {
+  return getIP("https://api6.ipify.org?format=json");
 }
 
 async function getIP(url) {
