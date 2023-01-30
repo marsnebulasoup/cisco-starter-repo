@@ -1,0 +1,20 @@
+@import url("../../assets/theme.css");
+
+.card {
+  background: var(--card-background);
+  padding: var(--default-container-padding);
+  border-radius: 50px;
+  height: fit-content;
+}
+
+.card-title {
+  font-size: 1.5em;
+  font-weight: 600;
+  word-break: break-all;
+}
+
+.card-content {
+  margin-top: 0.5em;
+  font-size: 1.3em;
+  word-break: break-all;
+}
