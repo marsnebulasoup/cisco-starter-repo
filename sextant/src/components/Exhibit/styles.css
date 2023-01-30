@@ -20,8 +20,15 @@
   font-size: 2em;
 }
 
-.exhibit {
+.exhibit-background {
   background: var(--exhibit-background);
   padding: var(--default-container-padding);
   flex-grow: 1;
+}
+
+.exhibit {
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
 }
