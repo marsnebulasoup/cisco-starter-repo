@@ -1,0 +1,9 @@
+@import url("./font/stylesheet.css");
+
+:root {
+  --page-background: #ffffff;
+
+  /* Banner */
+  --banner-background: #bbeaff;
+  --banner-font-family: 'Cisco Sans';
+}

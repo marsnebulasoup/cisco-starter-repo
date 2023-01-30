@@ -1,0 +1,19 @@
+@import url("../../assets/theme.css");
+
+.banner-container {
+  min-height: 6em;
+  background: var(--banner-background);
+  padding: 50px 50px 50px 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.banner {
+  /* if more links should be added */
+}
+
+.banner-title {
+  font-size: 4em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
