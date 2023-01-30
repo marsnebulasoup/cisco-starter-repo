@@ -2,8 +2,14 @@
 
 :root {
   --page-background: #ffffff;
+  --default-container-padding: 3em;
 
   /* Banner */
   --banner-background: #bbeaff;
   --banner-font-family: 'Cisco Sans';
+
+  /* Exhibit */
+  --exhibit-header-background: #eeeeee;
+  --exhibit-background: #dddddd;
+
 }

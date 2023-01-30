@@ -3,7 +3,7 @@
 .banner-container {
   min-height: 6em;
   background: var(--banner-background);
-  padding: 50px 50px 50px 50px;
+  padding: var(--default-container-padding);
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }

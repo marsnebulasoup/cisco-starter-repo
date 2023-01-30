@@ -6,7 +6,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   max-width: 1140px;
+  min-height: 100vh;
   margin: auto;
+}
+
+#root {
+  min-height: 100vh;
 }
 
 code {
